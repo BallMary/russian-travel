@@ -1,0 +1,13 @@
+.place__website-link {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    grid-area: place__website-link;
+    transition: opacity 0.2s linear 0.1s;
+}
+
+.place__website-link:hover {
+    opacity: 0.5;
+}

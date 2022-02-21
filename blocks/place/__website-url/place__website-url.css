@@ -1,0 +1,12 @@
+.place__website-url {
+    font-family: 'Inter-Thin', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    grid-area: place__website-url;
+    margin: 0;
+    margin-bottom: 12px;
+}

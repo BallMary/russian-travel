@@ -1,0 +1,10 @@
+.intro__line {
+    max-width: 690px;
+    max-height: 90px;
+    font-family: 'Inter-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 0;
+}

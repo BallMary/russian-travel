@@ -1,0 +1,9 @@
+@media screen and (min-width: 1280px) {
+    .lead {
+        width: calc(100% - 100px*2);
+    }
+}
+
+.lead {
+    margin: 0 auto;
+}

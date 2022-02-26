@@ -23,8 +23,9 @@
 
 .place__paragraph-text {
     margin: 0;
+    margin-bottom: 26px;
 }
 
-.place__paragraph-text:first-child {
-    margin-bottom: 26px;
+.place__paragraph-text:last-child {
+    margin-bottom: 0;
 }

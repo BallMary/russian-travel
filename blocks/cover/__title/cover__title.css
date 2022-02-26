@@ -24,12 +24,10 @@
 
 .cover__title {
     max-width: 560px;
-    font-family: 'Inter-ExtraBold', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     line-height: 1.1;
     text-align: center;
     color: #FFFFFF;
-    z-index: 1;
-    text-decoration: none; 
 }

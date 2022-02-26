@@ -3,7 +3,7 @@
         margin-top: 92px;
         display: block;
         margin-left: 100px;
-        grid-template-columns: 40% minmax(min-content, max-content);
+        grid-template-columns: 39% minmax(min-content, max-content);
         grid-gap: 48px 40px;
         grid-template-areas: 
         "place__title place__website"
@@ -14,7 +14,8 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
         margin-top: 92px;
-        grid-template-columns: 40% minmax(min-content, max-content);
+        padding: 0 48px;
+        grid-template-columns: 48% minmax(min-content, max-content);
         grid-gap: 48px 32px;
         grid-template-areas: 
         "place__title place__website"
@@ -25,7 +26,7 @@
     .place {
         padding: 0 24px;
         padding-top: 88px;
-        grid-template-columns: 40% minmax(min-content, max-content);
+        grid-template-columns: 47% minmax(min-content, max-content);
         grid-gap: 48px 28px;
         grid-template-areas: 
         "place__title place__website"

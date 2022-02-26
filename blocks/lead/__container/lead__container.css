@@ -1,6 +1,13 @@
 .lead__container {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__container {
+        margin: 0 48px;
+    }
 }

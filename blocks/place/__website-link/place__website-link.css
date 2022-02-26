@@ -1,6 +1,6 @@
 .place__website-link {
-    font-family: 'Inter-Regular', sans-serif;
-    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
     color: #FFFFFF;
@@ -9,5 +9,5 @@
 }
 
 .place__website-link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }

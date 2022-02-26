@@ -16,4 +16,4 @@
 
 * В данной проектной работе подключена библиотека **normalize.css** и шрифты ```Inter```.
 
-Ссылка на проект: https://ballmary.github.io/russian-travel/index.html
+Ссылка на проект: https://ballmary.github.io/russian-travel/

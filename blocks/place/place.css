@@ -1,9 +1,9 @@
 @media screen and (min-width: 1280px) {
     .place {
-        margin-top: 92px;
         display: block;
-        margin-left: 100px;
-        grid-template-columns: 39% minmax(min-content, max-content);
+        margin-left: 148px;
+        margin-bottom: 80px;
+        grid-template-columns: 41% minmax(min-content, max-content);
         grid-gap: 48px 40px;
         grid-template-areas: 
         "place__title place__website"
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
-        margin-top: 92px;
+        margin-bottom: 80px;
         padding: 0 48px;
         grid-template-columns: 48% minmax(min-content, max-content);
         grid-gap: 48px 32px;
@@ -24,8 +24,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
+        margin-bottom: 73px;
         padding: 0 24px;
-        padding-top: 88px;
         grid-template-columns: 47% minmax(min-content, max-content);
         grid-gap: 48px 28px;
         grid-template-areas: 
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place {
-        padding-top: 64px;
+        margin-bottom: 50px;
         grid-template-areas: 
         "place__title" 
         "place__website"
@@ -48,4 +48,8 @@
 .place {
     max-width: 100%;
     display: grid;
+}
+
+.place:last-child {
+    margin-bottom: 0;
 }
